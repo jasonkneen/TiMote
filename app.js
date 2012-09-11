@@ -18,4 +18,4 @@ tabGroup.open();
 
 var motecode = require("TiMote/timote");
 
-motecode.exec('https://github.com/jasonkneen/TiMote/remote.js',win1);
+motecode.exec('https://raw.github.com/jasonkneen/TiMote/master/remote.js',win1);
