@@ -1,7 +1,9 @@
 TiMote
 =======
 
-A module demonstrating how a Titanium App could execute/integrate remote code
+A module demonstrating how a Titanium App could execute/integrate remote code. Very useful for being able to add/manipulate native controls and interfaces in an app without having to redeploy to the appstore.
+
+Usage:-
 
 	var timote = require("timote");
 	
