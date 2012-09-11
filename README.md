@@ -13,6 +13,21 @@ The optional WIN parameter allows you to passthrough the current Ti Window allow
 
 The example references the remote.js file in this repo from the Simulator so you can see it in action. It adds a button to the current window, plus an event handler.
 
+The remote.js file code:-
+
+	var newButton = Titanium.UI.createButton({
+					title:'Click me!',			
+					width:200,
+					height:30
+					});
+					
+	// add the event listener
+	newButton.addEventListener("click",function() {
+		alert('this code is running from a remote location!')
+	});
+	
+	// add it to the view
+	win.add(newButton);
 
 This is WORK IN PROGRESS!
 	
