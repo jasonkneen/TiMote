@@ -7,7 +7,7 @@ A module demonstrating how a Titanium App could execute/integrate remote code
 	
 Executing code:-
 	
-	motecode.exec('https://raw.github.com/jasonkneen/TiMote/master/remote.js',WIN);
+	timote.exec('https://raw.github.com/jasonkneen/TiMote/master/remote.js',WIN);
 	
 The optional WIN parameter allows you to passthrough the current Ti Window allowing the code to reference an object called "win" so it can directly interact with the application
 
