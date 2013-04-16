@@ -1,6 +1,8 @@
 TiMote
 =======
 
+Note - this is just a concept - wouldn't recommend using this in production as we're using Eval - it's just to prove that this kind of thing is possible.
+
 A module demonstrating how a Titanium App could execute/integrate remote code. Very useful for being able to add/manipulate native controls and interfaces in an app without having to redeploy to the appstore.
 
 Usage:-
